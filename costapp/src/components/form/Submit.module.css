@@ -1,0 +1,12 @@
+.btn{
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: .7em 1.2em;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+}
+.btn:hover{
+    color: var(--amarelo)
+}

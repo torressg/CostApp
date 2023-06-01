@@ -14,5 +14,6 @@ html, body, #root{
 :root{
   --amarelo: #FFBB33;
   --preto: #222;
-  --branco: #fff
+  --branco: #fff;
+  --cinza: #7b7b7b
 }
