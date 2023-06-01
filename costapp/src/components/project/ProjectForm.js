@@ -3,7 +3,7 @@ import { Select } from '../form/Select'
 import { Submit } from '../form/Submit'
 import styles from './ProjectForm.module.css'
 
-export function ProjectForm() {
+export function ProjectForm({btnText}) {
     return (
         <form className={styles.form}>
             <div>
@@ -31,7 +31,7 @@ export function ProjectForm() {
             </div>
             <div>
                 <Submit
-                    text="Envie o projeto"
+                    text={btnText}
                 />
             </div>
         </form>

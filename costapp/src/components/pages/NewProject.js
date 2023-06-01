@@ -1,12 +1,12 @@
 import { ProjectForm } from '../project/ProjectForm'
 import styles from './NewProject.module.css'
 
-export function NewProject(){
+export function NewProject( { btnText }){
     return(
         <div className={styles.newprojectcontainer}>
             <h1>Criar Projeto</h1>
             <p>Crie seu projeto para depois adicionar os serviços</p>
-            <ProjectForm />
+            <ProjectForm btnText='Criar projeto'/>
         </div>
     )
 }

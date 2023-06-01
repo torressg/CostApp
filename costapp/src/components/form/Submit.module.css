@@ -1,12 +1,18 @@
 .btn{
     background-color: var(--preto);
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    background-color: var(--preto);
     color: var(--branco);
     padding: .7em 1.2em;
     text-decoration: none;
+    font-weight: 600;
     cursor: pointer;
     border: none;
     transition: 0.5s;
 }
-.btn:hover{
-    color: var(--amarelo)
+.btn button:hover{
+    color: var(--amarelo);
 }
