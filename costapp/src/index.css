@@ -15,5 +15,11 @@ html, body, #root{
   --amarelo: #FFBB33;
   --preto: #222;
   --branco: #fff;
-  --cinza: #7b7b7b
+  --cinza: #7b7b7b;
+  --verdeescuro: #155724;
+  --verdeclaro: #D4EDDA;
+  --verdeborda: #C3E6CB;
+  --vermelhoescuro: #721c24;
+  --vermelhoclaro: #f8d7da;
+  --vermelhoborda: #f5c6cb
 }

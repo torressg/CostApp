@@ -20,8 +20,7 @@ export function NewProject(){
             body: JSON.stringify(project),
         }).then((resp) => resp.json())
         .then((data) => {
-            console.log(data, 'sexo')
-            history('/projects', {message : "Projeto criado com sucesso!"});
+            history('/projects', {state:{message : "Projeto criado com sucesso!"}});
         })
         .catch((error) => console.log(error))
 
