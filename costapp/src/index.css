@@ -21,5 +21,9 @@ html, body, #root{
   --verdeborda: #C3E6CB;
   --vermelhoescuro: #721c24;
   --vermelhoclaro: #f8d7da;
-  --vermelhoborda: #f5c6cb
+  --vermelhoborda: #f5c6cb;
+  --infra: #ffaebc;
+  --dev: #a0e7e5;
+  --design: #b4f8c8;
+  --planej: #fbe7c6;
 }
