@@ -5,6 +5,7 @@ import styles from './Project.module.css'
 
 import { Message } from '../layout/Message'
 import { Container } from '../layout/Container'
+import { Loading } from '../layout/Loading'
 import { LinkButton } from '../layout/LinkButton'
 import { ProjectCard } from '../project/ProjectCard'
 
@@ -12,6 +13,7 @@ import { ProjectCard } from '../project/ProjectCard'
 export function Projects(){
 
     const [projects, setProjects] = useState([])
+    const [removeloading, setRemoveLoading] = useState(false)
 
     const location = useLocation()
     let message = ''
@@ -30,6 +32,7 @@ export function Projects(){
         .then((data) => {
             setProjects(data)
             console.log(data)
+            setRemoveLoading(true)
         }).catch((error) => console.log(error))
 
     }, [])
@@ -52,6 +55,7 @@ export function Projects(){
                             key={project.id}
                         />
                     ))}
+                    {!removeloading && <Loading />}
             </Container>
         </div>
     )

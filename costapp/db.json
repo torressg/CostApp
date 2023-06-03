@@ -65,6 +65,17 @@
       "cost": 0,
       "services": [],
       "id": 6
+    },
+    {
+      "name": "Giba",
+      "budget": "10000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 7
     }
   ],
   "categories": [
