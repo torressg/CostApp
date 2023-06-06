@@ -1,15 +1,28 @@
 {
   "projects": [
     {
-      "name": "Teste edição",
-      "budget": "10001",
+      "name": "GianL",
+      "budget": "1000",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
-      "id": 1
+      "cost": 1000,
+      "services": [
+        {
+          "name": "Web",
+          "cost": "500",
+          "description": "a",
+          "id": "975371a5-ce38-49ab-9f88-cf629dc56696"
+        },
+        {
+          "name": "b",
+          "cost": "500",
+          "description": "Sim",
+          "id": "380eef75-02b5-411e-a56b-e64e9c38d766"
+        }
+      ],
+      "id": 2
     }
   ],
   "categories": [
