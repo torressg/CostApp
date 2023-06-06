@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import {Home} from './components/pages/Home'
 import {Contact} from './components/pages/Contact'
 import {About} from './components/pages/About'
@@ -6,6 +6,7 @@ import {NewProject} from './components/pages/NewProject'
 import {Projects} from './components/pages/Projects'
 import {Navbar} from './components/layout/Navbar'
 import {Footer} from './components/layout/Footer'
+import { ProjectEdit } from './components/pages/ProjectEdit'
 
 import {Container} from './components/layout/Container'
 
@@ -36,6 +37,10 @@ function App() {
           <Route 
             exact path='/newproject' 
             element={<NewProject />} 
+          />
+          <Route 
+            exact path='/project/:id' 
+            element={<ProjectEdit />} 
           />
         </Routes>
       </Container>

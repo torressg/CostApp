@@ -1,0 +1,49 @@
+.projectcont {
+    padding: 2em;
+}
+
+
+.projectcont h1,
+.projectcont h2,
+.projectcont p {
+    margin-bottom: 0.5em;
+}
+
+.projectcont h1 {
+    background-color: var(--preto);
+    color: var(--amarelo);
+    padding: 0.4em;
+}
+
+.projectcont span {
+    font-weight: bold;
+}
+
+.projectinfo {
+    width: 100%;
+}
+
+.infocont,
+.servicecont {
+    border-bottom: 1px solid var(--cinza);
+    margin-bottom: 1.2em;
+    padding-bottom: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    max-height: 40px;
+    border: none
+}
+.btn:hover{
+    color: var(--amarelo);
+}
+
