@@ -1,5 +1,15 @@
-.form{
+.form {
     width: 100%;
     margin: 2em 0;
     
+}
+
+.linkcont {
+    margin-bottom: 1em;
+}
+
+.link{
+    color: var(--amarelo);
+    margin-bottom: 1em;
+    font-size: 0.8em;
 }

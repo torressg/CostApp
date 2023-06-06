@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 import { Input } from '../form/Input'
 import { Select } from '../form/Select'
@@ -68,6 +69,11 @@ export function ProjectForm({ btnText, handleSubmit, projectData }) {
                     handleOnChange={handleCategory}
                     value={project.category ? project.category.id : ''}
                 />
+            </div>
+            <div className={styles.linkcont}>
+                <Link className={styles.link} to='/newcategory'>
+                    Não encontrou a categoria?
+                </Link>
             </div>
             <div>
                 <Submit

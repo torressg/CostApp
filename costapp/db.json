@@ -23,6 +23,17 @@
         }
       ],
       "id": 2
+    },
+    {
+      "name": "teste",
+      "budget": "134",
+      "category": {
+        "id": "5",
+        "name": "Backend"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categories": [
@@ -41,6 +52,18 @@
     {
       "id": 4,
       "name": "Planejamento"
+    },
+    {
+      "name": "Backend",
+      "id": 5
+    },
+    {
+      "name": "Frontend",
+      "id": 6
+    },
+    {
+      "name": "DevOps",
+      "id": 7
     }
   ]
 }
